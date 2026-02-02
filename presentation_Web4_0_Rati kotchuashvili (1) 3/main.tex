@@ -1,0 +1,161 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{fontspec}
+\setmainfont{DejaVu Sans}
+\setsansfont{DejaVu Sans}
+\newfontfamily\georgianfont{DejaVu Sans}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+\definecolor{bgdark}{RGB}{15,18,25}
+\definecolor{accent}{RGB}{0,210,255}
+\definecolor{textgray}{RGB}{220,220,220}
+\definecolor{softblue}{RGB}{90,200,250}
+\usetheme{default}
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{background canvas}{bg=bgdark}
+\setbeamercolor{normal text}{fg=textgray}
+\setbeamercolor{frametitle}{fg=accent}
+\setbeamercolor{title}{fg=accent}
+\setbeamercolor{block title}{bg=accent!20, fg=white}
+\setbeamercolor{block body}{bg=bgdark!95}
+\usefonttheme{professionalfonts}
+\setbeamerfont{title}{family=\georgianfont, series=\bfseries, size=\Large}
+\setbeamerfont{frametitle}{family=\georgianfont, series=\bfseries, size=\large}
+\setbeamerfont{block title}{family=\georgianfont, series=\bfseries}
+\setbeamerfont{item}{family=\georgianfont}
+\setbeamertemplate{footline}{
+  \hfill
+  \textcolor{softblue}{\insertframenumber{} / \inserttotalframenumber}
+  \hspace{1em}
+  \vspace{0.4em}
+}
+\title{ვებ 4.0}
+\subtitle{ინტელექტუალური, ავტონომიური და სიმბიოზური ვები}
+\author{რატი კოჭუაშვილი}
+\institute{შავი ზღვის საერთაშორისო უნივერსიტეტი}
+\date{\today}
+\begin{document}
+\begin{frame}[plain]
+\vfill
+\begin{center}
+{\Huge \textbf{\inserttitle}}\\[0.6em]
+{\Large \insertsubtitle}\\[1.2em]
+\faRobot\hspace{0.8em}\faBrain\hspace{0.8em}\faNetworkWired\\[2em]
+{\small \insertauthor}\\
+{\small \insertinstitute}\\
+{\small \insertdate}
+\end{center}
+\vfill
+\end{frame}
+\begin{frame}{სარჩევი}
+\begin{itemize}
+  \item რა არის ვებ 4.0?
+  \item ვების ევოლუცია
+  \item ძირითადი ტექნოლოგიები
+  \item მთავარი მახასიათებლები
+  \item გამოყენების სფეროები
+  \item გამოწვევები და მომავალი
+\end{itemize}
+\end{frame}
+\begin{frame}{რა არის ვებ 4.0?}
+\begin{block}{კონცეფცია}
+ვებ 4.0 წარმოადგენს ინტელექტუალურ და ავტონომიურ ვებ ეკოსისტემას, სადაც ხელოვნური ინტელექტი, მონაცემები, მოწყობილობები და ადამიანები რეალურ დროში ურთიერთქმედებენ გადაწყვეტილებების მისაღებად, საჭიროებების პროგნოზირებისა და პროაქტიული მოქმედებისთვის.
+\end{block}
+\begin{itemize}
+  \item AI-ზე დაფუძნებული ინტერნეტი
+  \item კონტექსტზე ორიენტირებული და პროგნოზირებადი
+  \item ადამიანისა და მანქანის სიმბიოზი
+\end{itemize}
+\end{frame}
+\begin{frame}{ვების ევოლუცია}
+\begin{center}
+\includegraphics[width=0.7\linewidth]{Images/web_evolution.png}
+\end{center}
+\begin{itemize}
+  \item \textbf{ვებ 1.0} — სტატიკური, მხოლოდ ინფორმაციული
+  \item \textbf{ვებ 2.0} — სოციალური და ინტერაქტიული
+  \item \textbf{ვებ 3.0} — სემანტიკური და დეცენტრალიზებული
+  \item \textbf{ვებ 4.0} — ინტელექტუალური და ავტონომიური
+\end{itemize}
+\end{frame}
+\begin{frame}{ძირითადი ტექნოლოგიები}
+\begin{columns}
+\column{0.6\textwidth}
+\begin{itemize}
+  \item ხელოვნური ინტელექტი და მანქანური სწავლება
+  \item საგნების ინტერნეტი (IoT)
+  \item დიდი მონაცემების ანალიტიკა
+  \item ბლოკჩეინი
+  \item ღრუბლოვანი და Edge გამოთვლები
+\end{itemize}
+\column{0.4\textwidth}
+\includegraphics[width=\linewidth]{Images/core_technologies.png}
+\end{columns}
+\end{frame}
+\begin{frame}{ვებ 4.0-ის ძირითადი მახასიათებლები}
+\begin{block}{ინტელექტუალური შესაძლებლობები}
+\begin{itemize}
+  \item ჰიპერპერსონალიზებული გამოცდილება
+  \item ავტონომიური გადაწყვეტილებების მიღება
+  \item ემოციური და ქცევითი აღქმა
+  \item უწყვეტად სწავლადი სისტემები
+\end{itemize}
+\end{block}
+\end{frame}
+\begin{frame}{გამოყენების სფეროები}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{itemize}
+  \item \faHeartbeat\ ჭკვიანი ჯანდაცვა
+  \item \faCar\ ავტონომიური ტრანსპორტი
+  \item \faCity\ ჭკვიანი ქალაქები
+  \item \faGraduationCap\ ადაპტიური განათლება
+\end{itemize}
+\column{0.5\textwidth}
+\includegraphics[width=\linewidth]{Images/apps.png}
+\end{columns}
+\end{frame}
+\begin{frame}{უპირატესობები და გამოწვევები}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{block}{უპირატესობები}
+\begin{itemize}
+  \item მასშტაბური ავტომატიზაცია
+  \item გაზრდილი ეფექტიანობა
+  \item ინტელექტუალური პროგნოზირება
+\end{itemize}
+\end{block}
+\column{0.5\textwidth}
+\begin{block}{გამოწვევები}
+\begin{itemize}
+  \item კონფიდენციალურობის და მეთვალყურეობის რისკები
+  \item ეთიკური AI-ს პრობლემები
+  \item უსაფრთხოების დაუცველობა
+\end{itemize}
+\end{block}
+\end{columns}
+\end{frame}
+\begin{frame}{ვებ 4.0-ის მომავალი}
+\begin{block}{რა გველის წინ}
+\begin{itemize}
+  \item სრულად ავტონომიური ციფრული აგენტები
+  \item ადამიანისა და AI-ის შეუფერხებელი თანამშრომლობა
+  \item პროგნოზირებადი და თვითოპტიმიზირებადი ვები
+\end{itemize}
+\end{block}
+\begin{center}
+\vspace{1em}
+\faRobot\hspace{1em}\faBrain\hspace{1em}\faGlobe
+\end{center}
+\end{frame}
+\begin{frame}[plain]
+\vfill
+\begin{center}
+{\Huge \textbf{გმადლობთ ყურადღებისთვის}}\\[1em]
+{\Large ვების მომავალი არის ინტელექტუალური}
+\end{center}
+\vfill
+\end{frame}
+\end{document}
